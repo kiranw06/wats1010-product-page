@@ -1,49 +1,161 @@
 <!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- TODO: Add proper head tag to provide a page description for search
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- TODO: Add proper head tag to provide a page description for search
              engines. -->
-        <title>API Superstore</title>
-        <!-- Bootstrap CSS Framework -->
-        <!-- Please Note: This repo does not include the Bootstrap Javascript
+	<title>API Superstore</title>
+<!-- Bootstrap CSS Framework -->
+	<!-- Please Note: This repo does not include the Bootstrap Javascript
              plugins, so you cannot use the features documented under
              "Javascript" on the Bootstrap documentation site. -->
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
-        <!-- End Bootstrap CSS Framework -->
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
+<!-- End Bootstrap CSS Framework -->
 
-        <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
+	<!-- TODO: replace favicon, apple-touch-icon, and tile images to best
              support bookmarking. -->
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="favicon" href="favicon.ico">
+	<link rel="stylesheet" href="main.css">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="favicon" href="favicon.ico">
 
-    </head>
-    <body>
-        <!-- Note: If you do not see a lamp icon in the heading below
-             when you view this file in a web browser, then there is an issue
-             with how Bootstrap is linked to this page. -->
-        <h1><span class="glyphicon glyphicon-lamp"></span> Hello World!</h1>
-        <!-- TODO: Populate this page with all the content you deem
+</head>
+
+<body>
+	<!-- TODO: Populate this page with all the content you deem
              necessary to create a compelling product page! -->
 
-        <!-- TODO: Create an area to put the explainer video. -->
+	<!-- Nav -->
+	<!-- TODO fix nav bar		 -->
+	<div class="container-fluid">
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="navbar-header">
+				<img alt="API Superstore" src="assets/logos/api_superstore_logo_bg.png" class="img-responsive">
+			</div>
+			<div>
+				<ul class="nav nav-pills">
+					<li role="presentation"><a href="#home" alt="home"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
+					</li>
+					<li role="presentation"><a href="#services">Services</a>
+					</li>
+					<li role="presentation"><a href="#about">About</a>
+					</li>
+					<li role="presentation"><a href="#talk">Talk</a>
+					</li>
+					<li class="navbar-right">
+						<button type="button" class="btn btn-success">Sign Up</button>
+					</li>
+					<li class="navbar-right">
+						<button type="button" class="btn btn-default">Sign In</button>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+<!-- content -->
 
-        <!-- TODO: Create an area to put the long product description. -->
+	<div class="container">
+<!-- home -->
+		<div id="home" class="row">
+			<div class="col-sm-12">
+				<iframe 
+					width="100%" height="600" 
+					src="https://www.youtube.com/embed/L48g1ZWLMdo" 
+					frameborder="0" 
+					allowfullscreen>
+				</iframe>
+			</div>
+		</div>
+<!-- services -->
+		<div id="services" class="row">
+			<div class="col-sm-12">
+				<h1>Services</h1>
+				<img src="assets/media/api-landscape.png" alt="api landscape graphic" class="img-responsive">
+			</div>
+			<div class="col-sm-5">
+				<h3>Sign-up and save!</h3>
+				<p>Start an account with API Superstore today. Pay with credit, check, or PayPal.</p>
+					<button type="button" class="btn btn-success">Sign Up</button>
+					<button type="button" class="btn btn-default">Sign In</button>
+			</div>
+			<div class="col-sm-7">
+				<h3>Features</h3>
+				<p>API Superstore gives fast access to the most cutting edge API's online. TAPI Superstore provides a catalog of third-party APIs to enhance your business. 
+				<blockquote class="float-right">
+					<ul>
+						<li>Links to the best API's</li>
+						<li>Convenient catalog</li>
+						<li>Elegant experience</li>
+						<ul>
+				</blockquote>From ecommerce to maps, API Superstore offers features that will delight your users. API superstore’s convenient catalog and elegant shopping experience will save
+					you the headache of sorting it out yourself!</p>
+				<p>Save time, get API’s!</p>
+			</div>
+		</div>
+<!-- about-->
+		<div id="about" class="row">
+			<div class="col-sm-12">
+				<h1>About</h1>
+				<img src="assets/media/about.png" alt="three step api graphic" class="img-responsive">
+			</div>
+			<div class="col-sm-4">
+				<h3>Description</h3>
+				<p>The API Superstore has partnered with API providers to bring you easy-access to the hottest features on the web. Get started today!</p>
+			</div>
+			<div class="col-sm-8">
+				<h3>Buzz</h3>
+				<blockquote class="col-sm-6">
+					“I have really admired the way the API Superstore team has created a truly divine interface for browsing all that information that’s out there online for free. API Superstore makes my world so much happier! Please don’t stop the rocking!”
+					<footer>Amy Zon, Massive Anonymous Customer</footer>
+				</blockquote>
+				<div class="col-sm-6">
+				<blockquote>
+					“Once again, I’m blown away by the amazing offerings of the API Superstore. You really are SUPER!”
+					<footer>Clara Cache</footer>
+				</blockquote>
+				<blockquote>
+					“This is the best website ever!”
+					<footer>C.P. Yu, AmazingSite.com</footer>
+				</blockquote>
+				</div>
+			</div>
+		</div>
+<!-- talk-->
+		<div id="talk" class="row">
+				<h1>Talk</h1>
+				<img src="assets/media/talk.jpg" alt="two happy computer users" class="img-responsive">
+				<p>Click, Click, Code!</p>
+			</div>
+			<div class="col-sm-6">
+				<h3>Contact</h3>
+				<p>We want to hear from you. Get in touch with API Superstore.</p>
+					<address>
+					  	<strong>API Superstore</strong><br>
+						Seattle, Washington, USA<br>
+					  	<abbr title="Phone">Phone:</abbr> (206) 555-1234<br>
+					  	<a href="mailto:#">Email: info@apisuperstore.com</a>
+					</address>
+			</div>
+			<div class="col-sm-6">
+				<h3>Help</h3>
+				<p>Have a question? Tell us about it! Use our chat line and we'll give you an answer super-fast.</p>
+				<form class="form-inline">
+					  	<div class="form-group">
+							<label class="sr-only" for="exampleInputEmail3"></span>Email address</label>
+							<input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+					  	</div><br>
+						<textarea class="form-control" rows="2"></textarea>
+						<div>
+					  		<button type="submit" class="btn btn-default">Submit</button>
+						</div>
+				</form>
+			</div>
+		</div>
+<!-- 	end container	 -->
+		</div>
+</body>
 
-        <!-- TODO: Create an area to put customer testimonials. -->
-
-        <!-- TODO: Create an area to show features. -->
-
-        <!-- TODO: Create an area to show company contact info (phone,
-             location, etc.) -->
-
-        <!-- TODO: Create an area that allows users to Share links to the
-             page. -->
-
-        <!-- TODO: Create a call to action link to get users to sign up for the
-             service. -->
-    </body>
 </html>

@@ -1,8 +1,37 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
+
+/* MAIN */
 body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
+   	padding: 0;
 }
+.navbar-header img {
+	width: 30%;
+}
+nav {
+	padding-right: 15px;
+}
+
+#home {
+	margin-top: 100px;
+	margin-bottom: 60px;
+}
+
+/* FORMATTING */
+
+.float-right {
+	position: relative;
+	float: right;
+}
+
+blockquote ul {
+	list-style-type: none;
+}
+
+/* SPECIFIC STYLES */
+
+#talk h3 {
+	text-align: center;
+}
+
