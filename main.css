@@ -7,12 +7,17 @@ body {
    	padding: 0;
 	font-family: 'Arvo', serif;
 }
-p {
+p:not(.banner p) {
 	font-family: 'Arvo', serif;
 	font-weight: lighter;
 	color: #3F3F3F;
 	line-height: 1.8;
 }
+
+#features p {
+	text-indent: 3em;
+}
+
 a {
 	color: #3BA122;
 }
@@ -32,7 +37,7 @@ blockquote {
 /* 	border: none; */
 	font-family: 'Raleway', sans-serif;
 }
-.btn-success {
+.btn-sm, .btn-success {
 	margin-left: 0;
 	margin-right: 10px;
 }
