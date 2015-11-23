@@ -19,17 +19,14 @@
 	<!-- TODO: replace favicon, apple-touch-icon, and tile images to best
              support bookmarking. -->
 	<link rel="stylesheet" href="main.css">
-	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link href='https://fonts.googleapis.com/css?family=Arvo:400,400italic,700|Raleway:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="favicon" href="favicon.ico">
 
 </head>
 
 <body>
-	<!-- TODO: Populate this page with all the content you deem
-             necessary to create a compelling product page! -->
-
-	<!-- Nav -->
-	<!-- TODO fix nav bar		 -->
+<!-- Nav -->
 	<div class="container-fluid">
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="navbar-header">
@@ -37,99 +34,118 @@
 			</div>
 			<div>
 				<ul class="nav nav-pills">
-					<li role="presentation"><a href="#home" alt="home"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
+					<li role="presentation"><a href="#home" alt="Home"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
 					</li>
-					<li role="presentation"><a href="#services">Services</a>
+					<li role="presentation"><a href="#shop">Shop</a>
 					</li>
 					<li role="presentation"><a href="#about">About</a>
 					</li>
 					<li role="presentation"><a href="#talk">Talk</a>
 					</li>
 					<li class="navbar-right">
-						<button type="button" class="btn btn-success">Sign Up</button>
+						<button type="button" class="btn-sm btn-default">Sign In</button>
 					</li>
 					<li class="navbar-right">
-						<button type="button" class="btn btn-default">Sign In</button>
+						<button type="button" class="btn-sm btn-success">Sign Up</button>
 					</li>
 				</ul>
 			</div>
 		</nav>
 	</div>
 <!-- content -->
-
 	<div class="container">
 <!-- home -->
-		<div id="home" class="row">
-			<div class="col-sm-12">
-				<iframe 
-					width="100%" height="600" 
-					src="https://www.youtube.com/embed/L48g1ZWLMdo" 
-					frameborder="0" 
-					allowfullscreen>
-				</iframe>
+		<div id="home">
+			<div id="explainer-video" class="row">
+				<div class="col-sm-12">
+					<iframe 
+						width="100%" height="600" 
+						src="https://www.youtube.com/embed/L48g1ZWLMdo" 
+						frameborder="0" 
+						allowfullscreen>
+					</iframe>
+				</div>
 			</div>
 		</div>
-<!-- services -->
-		<div id="services" class="row">
-			<div class="col-sm-12">
-				<h1>Services</h1>
-				<img src="assets/media/api-landscape.png" alt="api landscape graphic" class="img-responsive">
-			</div>
-			<div class="col-sm-5">
-				<h3>Sign-up and save!</h3>
-				<p>Start an account with API Superstore today. Pay with credit, check, or PayPal.</p>
-					<button type="button" class="btn btn-success">Sign Up</button>
-					<button type="button" class="btn btn-default">Sign In</button>
-			</div>
-			<div class="col-sm-7">
-				<h3>Features</h3>
-				<p>API Superstore gives fast access to the most cutting edge API's online. TAPI Superstore provides a catalog of third-party APIs to enhance your business. 
-				<blockquote class="float-right">
-					<ul>
-						<li>Links to the best API's</li>
-						<li>Convenient catalog</li>
-						<li>Elegant experience</li>
+<!-- shop -->
+		<div id="shop">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1>Shop</h1>
+					<img src="assets/media/api-landscape.png" alt="api landscape graphic" class="img-responsive">
+				</div>
+				<div id="sign-up" class="col-sm-5">
+					<h3>Sign-up and save!</h3>
+					<p class="emphasis-paragraph">Start an account with API Superstore today. Pay with credit, check, or PayPal.</p>
+						<div class="account">
+							<button type="button" class="btn btn-success">Sign Up</button>
+							<button type="button" class="btn btn-default">Sign In</button>
+						</div>
+				</div>
+				<div id="features" class="col-sm-7">
+					<h3>Features</h3>
+					<p>API Superstore gives fast access to the most cutting edge API's online. The API Superstore provides a catalog of third-party APIs to enhance your business.</p>
+					<blockquote class="float-right">
 						<ul>
-				</blockquote>From ecommerce to maps, API Superstore offers features that will delight your users. API superstore’s convenient catalog and elegant shopping experience will save
-					you the headache of sorting it out yourself!</p>
-				<p>Save time, get API’s!</p>
+							<li>Links to the best API's</li>
+							<li>Convenient catalog</li>
+							<li>Elegant experience</li>
+							<ul>
+					</blockquote>
+						<p>From ecommerce to maps, API Superstore offers features that will delight your users. API superstore’s convenient catalog and elegant shopping experience will save
+						you the headache of sorting it out yourself!<br>
+						Save time, get API’s!</p>
+				</div>
 			</div>
 		</div>
 <!-- about-->
-		<div id="about" class="row">
-			<div class="col-sm-12">
-				<h1>About</h1>
-				<img src="assets/media/about.png" alt="three step api graphic" class="img-responsive">
-			</div>
-			<div class="col-sm-4">
-				<h3>Description</h3>
-				<p>The API Superstore has partnered with API providers to bring you easy-access to the hottest features on the web. Get started today!</p>
-			</div>
-			<div class="col-sm-8">
-				<h3>Buzz</h3>
-				<blockquote class="col-sm-6">
-					“I have really admired the way the API Superstore team has created a truly divine interface for browsing all that information that’s out there online for free. API Superstore makes my world so much happier! Please don’t stop the rocking!”
-					<footer>Amy Zon, Massive Anonymous Customer</footer>
-				</blockquote>
-				<div class="col-sm-6">
-				<blockquote>
-					“Once again, I’m blown away by the amazing offerings of the API Superstore. You really are SUPER!”
-					<footer>Clara Cache</footer>
-				</blockquote>
-				<blockquote>
-					“This is the best website ever!”
-					<footer>C.P. Yu, AmazingSite.com</footer>
-				</blockquote>
+		<div id="about">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1>About</h1>
+					<img src="assets/media/about.png" alt="three step api graphic" class="img-responsive">
+				</div>
+				<div id="description" class="col-sm-4">
+					<h3>Description</h3>
+					<p class="emphasis-paragraph">The API Superstore has partnered with the best API providers to bring you easy-access to the hottest features on the web. Get started today!</p>
+				</div>
+				<div id="buzz" class="col-sm-8">
+					<h3>Buzz</h3>
+					<blockquote class="col-sm-6">
+						“I have really admired the way the API Superstore team has created a truly divine interface for browsing all that information that’s out there online for free. API Superstore makes my world so much happier! Please don’t stop the rocking!”
+						<footer>Amy Zon, Massive Anonymous Customer</footer>
+					</blockquote>
+					<div class="col-sm-6">
+						<blockquote>
+							“Once again, I’m blown away by the amazing offerings of the API Superstore. You really are SUPER!”
+							<footer>Clara Cache</footer>
+						</blockquote>
+						<blockquote>
+							“This is the best website ever!”
+							<footer>C.P. Yu, AmazingSite.com</footer>
+						</blockquote>
+					</div>
 				</div>
 			</div>
 		</div>
 <!-- talk-->
-		<div id="talk" class="row">
+		<div id="talk"> 
+			<div class="row">
 				<h1>Talk</h1>
+<!--TODO make banner responsive-->
 				<img src="assets/media/talk.jpg" alt="two happy computer users" class="img-responsive">
-				<p>Click, Click, Code!</p>
+					<div class="banner">
+						<h2>Click, Click, Code!</h2>
+						<p>Connect with us. We're all API's, all the time.</p>
+						<ul class="social-links">
+							<li><i class="fa fa-facebook"></i></li>
+							<li><i class="fa fa-github"></i></li>
+							<li><i class="fa fa-slack"></i></li>
+							<li><i class="fa fa-twitter"></i></li>
+						</ul>
+					</div>
 			</div>
-			<div class="col-sm-6">
+			<div id="contact" class="col-sm-6">
 				<h3>Contact</h3>
 				<p>We want to hear from you. Get in touch with API Superstore.</p>
 					<address>
@@ -139,23 +155,29 @@
 					  	<a href="mailto:#">Email: info@apisuperstore.com</a>
 					</address>
 			</div>
-			<div class="col-sm-6">
-				<h3>Help</h3>
+			<div id="support" class="col-sm-6">
+				<h3>Support</h3>
 				<p>Have a question? Tell us about it! Use our chat line and we'll give you an answer super-fast.</p>
-				<form class="form-inline">
-					  	<div class="form-group">
-							<label class="sr-only" for="exampleInputEmail3"></span>Email address</label>
-							<input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
-					  	</div><br>
-						<textarea class="form-control" rows="2"></textarea>
+				<form class="form-group">
 						<div>
-					  		<button type="submit" class="btn btn-default">Submit</button>
+							<input type="email" class="form-control" id="email-input" placeholder="Email"><br>
+						</div>
+						<div>
+							<textarea class="form-control" placeholder="Enter question here."></textarea>
+						</div>
+						<div>
+						 	<button type="submit" class="btn btn-default">Submit</button>
 						</div>
 				</form>
 			</div>
 		</div>
+	</div>		
 <!-- 	end container	 -->
-		</div>
+	<div class="container">
+		<footer class="footer">
+			<p class="text-muted"><i>&copy; KIRA WILSON, 2015.</i> This page was made for <a href="http://webdev.seattleu.edu/courses.html">WATS1010: Introduction to Web Development</a>. Content: <a href="http://webdev.seattleu.edu/"> Seattle University Web Development Program</a>. Photo: <a href="http://www.wocintechchat.com/blog/wocintechphotos">WOCinTech Chat.</a></p>
+		</footer>
+	</div>	
 </body>
 
 </html>

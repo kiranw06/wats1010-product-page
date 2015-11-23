@@ -5,33 +5,156 @@
 /* MAIN */
 body {
    	padding: 0;
+	font-family: 'Arvo', serif;
+}
+p {
+	font-family: 'Arvo', serif;
+	font-weight: lighter;
+	color: #3F3F3F;
+	line-height: 1.8;
+}
+a {
+	color: #3BA122;
+}
+h1, h2, h3 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bolder;
+}
+
+blockquote {
+	font-family: 'Raleway', sans-serif;
+	background: rgba(99, 179, 80, 0.15);
+}
+
+/* Buttons */
+.btn, .btn-sm {
+	background-image: none;
+/* 	border: none; */
+	font-family: 'Raleway', sans-serif;
+}
+.btn-success {
+	margin-left: 0;
+	margin-right: 10px;
+}
+
+
+/* Nav/Footer */
+nav {
+	padding-right: 15px;
+	background-color: #05235A;
+	
+	font-size: large;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bolder;
 }
 .navbar-header img {
 	width: 30%;
 }
-nav {
-	padding-right: 15px;
+.footer {
+	text-align: center;
+	font-size: smaller;
+	padding: 20px;
 }
 
+/* Content */
 #home {
 	margin-top: 100px;
 	margin-bottom: 60px;
 }
 
-/* FORMATTING */
+/* talk */
+.banner {
+	color: white;
+	font-size: 6rem;	
+	position: relative;
+    top: -475px;
+    text-align: center;
+}
+#contact, #support {
+    top: -180px;
+}
 
+
+
+/* SPECIFIC STYLES */
+
+
+/* Banner */
+.banner h2 {
+	font-size: 5rem;
+	letter-spacing: 3px;
+}
+.banner p {
+	position: relative;
+	top: 240px;
+	
+	font-size: large;
+}
+
+.social-links {
+	list-style-type: none;
+}
+ul.social-links {
+	position: relative;
+    top: 250px;
+	padding-left: 0;
+}
+.social-links li {
+	display: inline;
+	padding: 20px;
+}
+
+
+/* Blockquote*/
 .float-right {
 	position: relative;
 	float: right;
 }
-
 blockquote ul {
+	display: inline;
 	list-style-type: none;
 }
 
-/* SPECIFIC STYLES */
 
-#talk h3 {
+/* Shop */
+.account {
+	margin: 50px;
+}
+#shop blockquote {
+	margin: 10px;
+	line-height: 2;
+}
+
+
+
+.emphasis-paragraph {
+	padding-top: 50px;
+    font-size: larger;
+}
+
+
+
+
+/* Talk */
+#contact h3, #support h3 {
 	text-align: center;
 }
+
+address {
+	font-size: medium;
+	padding-top: 20px;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 20px;
+	text-align: center;
+}
+
+button[type="submit"] {
+	position: relative; 
+	float: right;
+	
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
 
